@@ -1,0 +1,23 @@
+{
+    "skipTerminateQuickPick": true,
+	"skipSwitchToOutput": false,
+	"skipErrorMessage": true,
+    "commands": [
+		{
+			"text": "📦 Redist JS-only",
+			"color": "lightgreen",
+			"command": "haxelib run redistHelper build.js.hxml -o redist -p GameBase",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -50
+		},
+		{
+			"text": "📦 Redist",
+			"color": "lightgreen",
+			"command": "haxelib run redistHelper build.directx.hxml build.opengl.hxml build.js.hxml -o redist -p GameBase -zip",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -50
+		}
+    ]
+}

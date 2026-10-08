@@ -1,0 +1,11 @@
+-cp src
+
+-lib domkit
+# --macro domkit.Macros.allowInterp()
+
+-lib heaps
+-lib hscript
+-lib plib
+-lib heaps-aseprite
+
+-main Boot

@@ -1,0 +1,27 @@
+{
+  "haxe.diagnosticsPathFilter": "${workspaceRoot}",
+  "[haxe]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"editor.codeActionsOnSave": {
+			"source.sortImports": "explicit"
+		},
+		"editor.bracketPairColorization.enabled": false,
+		"editor.semanticHighlighting.enabled": true,
+
+		"editor.quickSuggestions": {
+			"other": true,
+			"comments": false,
+			"strings": false
+		},
+		"editor.suggest.snippetsPreventQuickSuggestions": false
+		
+	},
+	
+
+    "editor.cursorSmoothCaretAnimation": "on",
+	"editor.minimap.enabled": false,
+	"zenMode.centerLayout": true,
+	"zenMode.fullScreen": false,
+	"zenMode.hideLineNumbers": false,
+}

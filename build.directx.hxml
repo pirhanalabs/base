@@ -1,0 +1,9 @@
+base.hxml
+
+-D windowTitle=DelveCo
+-D windowSize=960x540
+# -D windowFixed=1
+
+-hl bin/client.hl
+-lib hldx
+-lib hlopenal
